@@ -23,7 +23,6 @@ def slugify(text):
     return re.sub(r'[\W_]+', '', text)
 
 def main() : 
-	#f = open('server_startup_' + strftime("%Y-%m-%d")
 	f=open(args.f,"r")
 	o=open(outputDir+strftime("%Y%m%d-%H%M%S")+args.o,"w")
 
