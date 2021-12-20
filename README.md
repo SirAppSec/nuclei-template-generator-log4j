@@ -12,7 +12,9 @@ pip install unidecode #for slugification
 ```
 
 Usage:
-```python3 gen.py -f headers-small.txt -o headers.txt```
+```
+python3 gen.py -f headers-small.txt -o headers.txt
+```
 
 Example Output:
 ```
